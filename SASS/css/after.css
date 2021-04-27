@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+}
+#header{
+	background: #fff;
+	height: 90px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	border-bottom: 1px solid #ccc;
+}
+#header .botonera{
+	width: 80%;
+	max-width: 1280px;
+	margin: auto;
+	padding: 15px 0;
+	box-sizing: border-box;
+}
+#header .botonera ul{
+	list-style: none;
+	float: left;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+#header .botonera ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+#header .botonera ul li a{
+	text-decoration: none;
+	color: #000;
+}
+#header .logo{
+	display: block;
+	width: 250px;
+	float: left;
+}
+#header .logo img{
+	display: block;
+	width: 100%;
+}
+.fondoConImagen{
+	height: 100vh;
+	background-image: url("../media/fondo.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center;
+}
+/*contenido del sitio*/
+#contenedor{
+	padding-top: 90px;
+	max-width: 1280px;
+	margin: auto;
+}
+#contenedor h2{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 2em;
+	font-weight: 700;
+}
+#contenedor h3{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 300;
+}
+#contenedor .productos{
+	max-width: 800px;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+#contenedor .productos .boxProducto{
+	width: 50%;
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+}
+/* no es obligatorio colocar #contenedor .productos .boxProducto h4*/
+#contenedor h4{
+	margin-top: 20px;
+	font-size: 18px;
+}
+.clear{
+	clear: both;
+}

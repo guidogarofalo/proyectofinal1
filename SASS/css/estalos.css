@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap')
+}
+*{
+ margin: 0;
+padding: 0;
+}
+body{ 
+opacity: 5;
+background-color: #fbe6c2;
+} 	
+h1{
+	color: black;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-top: 50px;
+	padding: 10px;
+}
+h2{
+	color: black;
+	line-height: 1.5;
+	font-style: italic;
+	margin-top: 50px;
+}
+h3{
+	color:black;
+	line-height: 1.5;
+	font-style: sans-serif;
+	margin-top: 50px;
+	padding: 20px;
+}
+form{
+background-color: #ac0d0d;	
+}
+.contactar{
+	margin-top: 200px;	
+}
+.miPrimerEstilo{
+		color:black;
+		line-height: 1.5;
+		font-family: sans-serif;
+		margin-top: 50px;
+}
+.ul{
+	color:red;
+   list-style: none;
+}
+.li{
+   display: inline-block;
+   justify-content: space-between;
+   font-size: 15px;
+   color: black;
+   padding: 4px; 
+   margin-right: 10px;
+}
+
+ul li a:hover {
+	font-style: none;
+background: rgb(244,139,41);
+background: linear-gradient(90deg, rgba(244,139,41,1) 0%, rgba(244,139,41,1) 29%, rgba(244,139,41,1) 87%, rgba(244,139,41,1) 100%);
+a {
+	text-decoration: none;
+}
+.logo:hover{
+	transform: translate(20px);	
+}
+.color{
+	color:black;
+}
+.grilla{	
+	margin-top: 500px; 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15% 65% 20%;
+    height: 100vh;
+}
+.margencin{
+	margin-top: 1000px;

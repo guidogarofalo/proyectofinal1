@@ -1,0 +1,81 @@
+@import "variables";
+@import "fuentes";
+
+body{ 
+opacity: 5;
+background-color: $fondo;
+} 	
+h1{
+	color: $primario;
+	letter-spacing: 1px;
+	font-weight: $font-bold;
+	margin-top: 50px;
+	padding: 10px;
+	
+}
+h2{
+	color: $terciario;
+	line-height: 1.5;
+	font-style: italic;
+	margin-top: 50px;
+	padding: 10px;
+	
+}
+h3{
+	color:$terciario;
+	line-height: 1.5;
+	font-style: sans-serif;
+	margin-top: 50px;
+	padding: 20px;
+
+}
+form{
+background-color: $secundario;	
+}
+.contactar{
+	margin-top: 200px;	
+}
+.miPrimerEstilo{
+		color:$primario;
+		line-height: 1.5;
+		font-family: sans-serif;
+		margin-top: 50px;
+}
+li a {
+   display: inline-block;
+   justify-content: space-between;
+   font-size: 15px;
+   color: $primario;
+   padding: 4px; 
+   margin-right: 10px;
+	hover {
+	font-style: none;
+background: rgb(244,139,41);
+background: linear-gradient(90deg, rgba(244,139,41,1) 0%, rgba(244,139,41,1) 29%, rgba(244,139,41,1) 87%, rgba(244,139,41,1) 100%);
+	}
+}
+a {
+	text-decoration: none;
+.logo{
+    :hover{
+        transform: translate(20px);
+    }
+}
+.contactar{
+    .contactar__texto{
+        display:inline;
+    }   
+   
+}
+.redes{
+    .redes__link{
+        display:inline;
+        }
+    .redes__link--especial{
+        display:inline;
+    	}
+ }
+ .container{
+ 	margin-top:50px;
+ 	}
+ }
